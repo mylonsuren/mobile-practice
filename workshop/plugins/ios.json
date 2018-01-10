@@ -9,6 +9,9 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.mylonsuren.workshop"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.mylonsuren.workshop"
     }
   },
   "dependent_plugins": {}
