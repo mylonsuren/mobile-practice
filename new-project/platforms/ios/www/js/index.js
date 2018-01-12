@@ -44,45 +44,85 @@ var app = {
     }
 };
 
+function onExit() {}	//used to handle callback for exiting dialogs
+
+function onRegistrationFailure(registrationFailureResults) {
+	if (registrationFailureResults === 1) {
+		// document.getElementById("cordovaDevice").innerHTML = 'if';
+		cordovaDevice();
+	} else {
+		// document.getElementById("cordovaDevice").innerHTML = 'else';
+		onExit();
+	}
+}
+
+function showRegistrationFailure() {
+	navigator.notification.confirm(
+		'', // message
+		 onRegistrationFailure,            // callback to invoke with index of button pressed
+		'Registration Failed',           // title
+		['Try Again', 'Exit']     // buttonLabels
+	);
+}
+
+function showRegistrationConfirmation(userName) {
+	navigator.notification.confirm(
+        'Welcome ' + userName, // message
+         onExit,            // callback to invoke with index of button pressed
+        'Registration Complete',           // title
+        ['Continue']     // buttonLabels
+    );
+}
+
+function onPrompt(cordovaDeviceResults) {
+	var userName = cordovaDeviceResults.input1;
+	if (cordovaDeviceResults.buttonIndex === 1) {
+		showRegistrationConfirmation(cordovaDeviceResults.input1);
+	} else {
+		showRegistrationFailure();
+	}
+}
+
 function cordovaDevice() {
-
-    function onPrompt(results) {
-
-        function onEmpty(negatedResults) {}
-
-        if (results.buttonIndex == 1) {
-            navigator.notification.confirm(
-                'Welcome ' + results.input1, // message
-                 onEmpty,            // callback to invoke with index of button pressed
-                'Registration Complete',           // title
-                ['Continue']     // buttonLabels
-            );
-        } else {
-
-            function onTryAgain(tryAgainResults) {
-                cordovaDevice();
-            }
-
-            navigator.notification.confirm(
-                'Try again?',
-                onTryAgain,
-                'Registration Failed',
-                ['Yes', 'Exit']
-            );
-        }
-
-    }
-
     navigator.notification.prompt(
         'Please enter your name',  // message
         onPrompt,                  // callback to invoke
         'Registration',            // title
         ['Ok','Exit'],             // buttonLabels
-        'Jane Doe'                 // defaultText
+        ''                 		   // defaultText
     );
-
 }
 
 
-
 app.initialize();
+
+
+
+// function onPrompt(results) {
+//
+//     function onEmpty(negatedResults) {}
+//
+//     if (results.buttonIndex === 1) {
+//         navigator.notification.confirm(
+//             'Welcome ' + results.input1, // message
+//              onEmpty,            // callback to invoke with index of button pressed
+//             'Registration Complete',           // title
+//             ['Continue']     // buttonLabels
+//         );
+//     } else {
+//
+//         function onTryAgain(tryAgainResults) {
+//             if (tryAgainResults.buttonIndex === 1) {
+//                 cordovaDevice();
+//             }
+//         }
+//
+//         navigator.notification.confirm(
+//             'Try again?',
+//             onTryAgain,
+//             'Registration Failed',
+//             ['Yes', 'Exit']
+//         );
+//     }
+//
+// }
