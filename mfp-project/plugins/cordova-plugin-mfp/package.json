@@ -1,0 +1,154 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cordova-plugin-mfp@~8.0",
+        "scope": null,
+        "escapedName": "cordova-plugin-mfp",
+        "name": "cordova-plugin-mfp",
+        "rawSpec": "~8.0",
+        "spec": ">=8.0.0 <8.1.0",
+        "type": "range"
+      },
+      "/Users/mylonsuren/Documents/GitHub/mobile-practice/mfp-project"
+    ]
+  ],
+  "_from": "cordova-plugin-mfp@>=8.0.0 <8.1.0",
+  "_id": "cordova-plugin-mfp@8.0.2017121811",
+  "_inCache": true,
+  "_location": "/cordova-plugin-mfp",
+  "_nodeVersion": "6.11.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-plugin-mfp-8.0.2017121811.tgz_1513857177491_0.14006997016258538"
+  },
+  "_npmUser": {
+    "name": "ibmmfpf",
+    "email": "ibmmfpf@us.ibm.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cordova-plugin-mfp@~8.0",
+    "scope": null,
+    "escapedName": "cordova-plugin-mfp",
+    "name": "cordova-plugin-mfp",
+    "rawSpec": "~8.0",
+    "spec": ">=8.0.0 <8.1.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-mfp/-/cordova-plugin-mfp-8.0.2017121811.tgz",
+  "_shasum": "ecadf511d28d7333fc48c7e8d36960d5d2be7f18",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-mfp@~8.0",
+  "_where": "/Users/mylonsuren/Documents/GitHub/mobile-practice/mfp-project",
+  "author": {
+    "name": "IBM"
+  },
+  "bundleDependencies": [
+    "crc",
+    "ibm-strings",
+    "mfp-config-xml",
+    "elementtree",
+    "nopt",
+    "plist",
+    "shelljs",
+    "npmlog",
+    "archiver",
+    "q",
+    "rimraf",
+    "xcode",
+    "express",
+    "request",
+    "cordova-serve",
+    "jssha",
+    "promiz",
+    "sjcl"
+  ],
+  "cordova": {
+    "id": "cordova-plugin-mfp",
+    "platforms": [
+      "android",
+      "ios",
+      "windows",
+      "browser"
+    ]
+  },
+  "dependencies": {
+    "archiver": "0.20.0",
+    "cordova-serve": "^1.0.0",
+    "crc": "^3.4.0",
+    "elementtree": "0.1.6",
+    "express": "^4.14.0",
+    "ibm-strings": "~0.1.0",
+    "jssha": "2.2.0",
+    "mfp-config-xml": "0.0.1",
+    "nopt": "^3.0.6",
+    "npmlog": "0.0.6",
+    "plist": "1.1.0",
+    "promiz": "1.0.5",
+    "q": "0.9.7",
+    "request": "^2.73.0",
+    "rimraf": "2.4.4",
+    "shelljs": "0.3.0",
+    "sjcl": "1.0.3",
+    "xcode": "0.8.7"
+  },
+  "description": "IBM MobileFirst Platform Foundation Cordova Plugin",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "ecadf511d28d7333fc48c7e8d36960d5d2be7f18",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-mfp/-/cordova-plugin-mfp-8.0.2017121811.tgz"
+  },
+  "engines": [
+    {
+      "name": "cordova-android",
+      "version": ">=6.1.2 <7"
+    },
+    {
+      "name": "cordova-ios",
+      "version": ">=4.1.1 <5"
+    },
+    {
+      "name": "cordova-windows",
+      "version": ">=4.3.2 <6"
+    },
+    {
+      "name": "cordova-plugman",
+      "version": ">=6.1.1 <7"
+    }
+  ],
+  "keywords": [
+    "cordova",
+    "ibm",
+    "worklight",
+    "mobilefirst",
+    "mfp",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-windows",
+    "cordova-browser"
+  ],
+  "license": "SEE LICENSE IN LICENSE.TXT",
+  "maintainers": [
+    {
+      "name": "ibmmfpf",
+      "email": "ibmmfpf@us.ibm.com"
+    }
+  ],
+  "name": "cordova-plugin-mfp",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "https://git.ng.bluemix.net/ibmmfpf/cordova-plugin-mfp/tree/master"
+  },
+  "scripts": {},
+  "version": "8.0.2017121811"
+}

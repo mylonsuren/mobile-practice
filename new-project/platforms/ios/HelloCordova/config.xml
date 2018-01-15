@@ -25,6 +25,9 @@
     <feature name="Device">
         <param name="ios-package" value="CDVDevice" />
     </feature>
+    <feature name="Globalization">
+        <param name="ios-package" value="CDVGlobalization" />
+    </feature>
     <name>HelloCordova</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -55,4 +58,59 @@
     <preference name="PageLength" value="0" />
     <preference name="PaginationBreakingMode" value="page" />
     <preference name="PaginationMode" value="unpaginated" />
+    <feature name="WLSplashScreen">
+        <param name="ios-package" value="WLSplashPlugin" />
+    </feature>
+    <feature name="LoggerPlugin">
+        <param name="ios-package" value="LoggerPlugin" />
+    </feature>
+    <feature name="DeviceAuth">
+        <param name="ios-package" value="DeviceAuthPlugin" />
+    </feature>
+    <feature name="WLDirectUpdatePlugin">
+        <param name="ios-package" value="WLDirectUpdatePlugin" />
+    </feature>
+    <feature name="WLApp">
+        <param name="ios-package" value="WLApp" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="UIControls">
+        <param name="ios-package" value="UIControls" />
+    </feature>
+    <feature name="NetworkDetector">
+        <param name="ios-package" value="NetworkDetector" />
+    </feature>
+    <feature name="NativePage">
+        <param name="ios-package" value="NativePage" />
+    </feature>
+    <feature name="SecurityPlugin">
+        <param name="ios-package" value="SecurityPlugin" />
+    </feature>
+    <feature name="StoragePlugin">
+        <param name="ios-package" value="StoragePlugin" />
+    </feature>
+    <feature name="FIPSHttpPlugin">
+        <param name="ios-package" value="FIPSHttpPlugin" />
+    </feature>
+    <feature name="Badge">
+        <param name="ios-package" value="Badge" />
+    </feature>
+    <feature name="NotificationEx">
+        <param name="ios-package" value="NotificationEx" />
+    </feature>
+    <feature name="WifiPlugin">
+        <param name="ios-package" value="WifiPlugin" />
+    </feature>
+    <feature name="WLNativeXHRPlugin">
+        <param name="ios-package" value="WLNativeXHRPlugin" />
+    </feature>
+    <feature name="WLActionSenderPlugin">
+        <param name="ios-package" value="WLActionSenderPlugin" />
+    </feature>
+    <feature name="WLAuthorizationManagerPlugin">
+        <param name="ios-package" value="WLAuthorizationManagerPlugin" />
+    </feature>
+    <feature name="WLCertificatePinningPlugin">
+        <param name="ios-package" value="WLCertificatePinningPlugin" />
+    </feature>
 </widget>

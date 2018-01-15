@@ -21,6 +21,15 @@
 		4B7A9F9612DD434A85B7F9DE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547439DBAD6B46D1B4C0CC78 /* AudioToolbox.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		E4FED07D00A54362AA3436E2 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = CD69125723E24ECA9B1B5B39 /* CDVDevice.m */; };
 		65ED067882E64E27AC348455 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A542F8BD190D4C52B4274B7D /* libz.tbd */; };
+		E09006DCE7B54BAE9B29987F /* CDVGlobalization.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A6B77B530B43058A531747 /* CDVGlobalization.m */; };
+		2A64146682274A6E96DD1799 /* Localizations.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6BEA68BD41DA43309BC66BBE /* Localizations.bundle */; };
+		06F3D2F1869E4E10BA2313A1 /* mfpclient.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C20FEE7C75A41FC9AB09DDE /* mfpclient.plist */; };
+		670660349EDD48E1A4278595 /* IBMMobileFirstPlatformFoundationHybrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946321D2CE8C4166BFD2663F /* IBMMobileFirstPlatformFoundationHybrid.framework */; };
+		695582F22B324B32B58DA55E /* IBMMobileFirstPlatformFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1252E310FD2049FBAEFDB56B /* IBMMobileFirstPlatformFoundation.framework */; };
+		6CA4D744B67F48799F75BFAA /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 839B0672582C4745881E21A4 /* libstdc++.6.tbd */; };
+		8A4EBC72E4124C8E9CED9C2E /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 338EAC0A882B492DA160D59F /* libc++.tbd */; };
+		88E59BA180CE442E8B6CE8EB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA33FBAB28642B8A156DF75 /* Security.framework */; };
+		F0FA12ADADEA432DB3A107EF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8EEA76EC6241D0ABBD5A1A /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +77,16 @@
 		CD69125723E24ECA9B1B5B39 /* CDVDevice.m */ = {isa = PBXFileReference; name = "CDVDevice.m"; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
 		9E030ABDDA554FF3B6D869D3 /* CDVDevice.h */ = {isa = PBXFileReference; name = "CDVDevice.h"; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		A542F8BD190D4C52B4274B7D /* libz.tbd */ = {isa = PBXFileReference; name = "libz.tbd"; path = "usr/lib/libz.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
+		E7A6B77B530B43058A531747 /* CDVGlobalization.m */ = {isa = PBXFileReference; name = "CDVGlobalization.m"; path = "cordova-plugin-globalization/CDVGlobalization.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		FF2057B1D6C547219C693B53 /* CDVGlobalization.h */ = {isa = PBXFileReference; name = "CDVGlobalization.h"; path = "cordova-plugin-globalization/CDVGlobalization.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		6BEA68BD41DA43309BC66BBE /* Localizations.bundle */ = {isa = PBXFileReference; name = "Localizations.bundle"; path = "Localizations.bundle"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.plug-in; explicitFileType = undefined; includeInIndex = 0; };
+		6C20FEE7C75A41FC9AB09DDE /* mfpclient.plist */ = {isa = PBXFileReference; name = "mfpclient.plist"; path = "mfpclient.plist"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.plist.xml; explicitFileType = undefined; includeInIndex = 0; };
+		946321D2CE8C4166BFD2663F /* IBMMobileFirstPlatformFoundationHybrid.framework */ = {isa = PBXFileReference; name = "IBMMobileFirstPlatformFoundationHybrid.framework"; path = "HelloCordova/Plugins/cordova-plugin-mfp/IBMMobileFirstPlatformFoundationHybrid.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		1252E310FD2049FBAEFDB56B /* IBMMobileFirstPlatformFoundation.framework */ = {isa = PBXFileReference; name = "IBMMobileFirstPlatformFoundation.framework"; path = "HelloCordova/Plugins/cordova-plugin-mfp/IBMMobileFirstPlatformFoundation.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		839B0672582C4745881E21A4 /* libstdc++.6.tbd */ = {isa = PBXFileReference; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
+		338EAC0A882B492DA160D59F /* libc++.tbd */ = {isa = PBXFileReference; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
+		6FA33FBAB28642B8A156DF75 /* Security.framework */ = {isa = PBXFileReference; name = "Security.framework"; path = "System/Library/Frameworks/Security.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		DF8EEA76EC6241D0ABBD5A1A /* SystemConfiguration.framework */ = {isa = PBXFileReference; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +97,12 @@
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				4B7A9F9612DD434A85B7F9DE /* AudioToolbox.framework in Frameworks */,
 				65ED067882E64E27AC348455 /* libz.tbd in Frameworks */,
+				670660349EDD48E1A4278595 /* IBMMobileFirstPlatformFoundationHybrid.framework in Frameworks */,
+				695582F22B324B32B58DA55E /* IBMMobileFirstPlatformFoundation.framework in Frameworks */,
+				6CA4D744B67F48799F75BFAA /* libstdc++.6.tbd in Frameworks */,
+				8A4EBC72E4124C8E9CED9C2E /* libc++.tbd in Frameworks */,
+				88E59BA180CE442E8B6CE8EB /* Security.framework in Frameworks */,
+				F0FA12ADADEA432DB3A107EF /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +166,8 @@
 				8D1107310486CEB800E47090 /* HelloCordova-Info.plist */,
 				6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */,
 				992CD097AC3E4FEC88F542E0 /* CDVNotification.bundle */,
+				6BEA68BD41DA43309BC66BBE /* Localizations.bundle */,
+				6C20FEE7C75A41FC9AB09DDE /* mfpclient.plist */,
 			);
 			name = Resources;
 			path = "HelloCordova/Resources";
@@ -151,6 +178,12 @@
 			children = (
 				547439DBAD6B46D1B4C0CC78 /* AudioToolbox.framework */,
 				A542F8BD190D4C52B4274B7D /* libz.tbd */,
+				946321D2CE8C4166BFD2663F /* IBMMobileFirstPlatformFoundationHybrid.framework */,
+				1252E310FD2049FBAEFDB56B /* IBMMobileFirstPlatformFoundation.framework */,
+				839B0672582C4745881E21A4 /* libstdc++.6.tbd */,
+				338EAC0A882B492DA160D59F /* libc++.tbd */,
+				6FA33FBAB28642B8A156DF75 /* Security.framework */,
+				DF8EEA76EC6241D0ABBD5A1A /* SystemConfiguration.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -180,6 +213,8 @@
 				924B6809A6E74C6A97A30578 /* CDVNotification.h */,
 				CD69125723E24ECA9B1B5B39 /* CDVDevice.m */,
 				9E030ABDDA554FF3B6D869D3 /* CDVDevice.h */,
+				E7A6B77B530B43058A531747 /* CDVGlobalization.m */,
+				FF2057B1D6C547219C693B53 /* CDVGlobalization.h */,
 			);
 			name = Plugins;
 			path = "HelloCordova/Plugins";
@@ -262,6 +297,8 @@
 				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
 				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
 				840A4B468D934DCD85338C9F /* CDVNotification.bundle in Resources */,
+				2A64146682274A6E96DD1799 /* Localizations.bundle in Resources */,
+				06F3D2F1869E4E10BA2313A1 /* mfpclient.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +332,7 @@
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
 				7E8FAED07EDF4A92A533C764 /* CDVNotification.m in Sources */,
 				E4FED07D00A54362AA3436E2 /* CDVDevice.m in Sources */,
+				E09006DCE7B54BAE9B29987F /* CDVGlobalization.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +368,11 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				PRODUCT_NAME = "HelloCordova";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"HelloCordova/Plugins/cordova-plugin-mfp\"",
+					"\"HelloCordova/Plugins/cordova-plugin-mfp\"",
+				);
 			};
 			name = Debug;
 		};
@@ -352,6 +395,11 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				PRODUCT_NAME = "HelloCordova";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"HelloCordova/Plugins/cordova-plugin-mfp\"",
+					"\"HelloCordova/Plugins/cordova-plugin-mfp\"",
+				);
 			};
 			name = Release;
 		};

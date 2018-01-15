@@ -1,0 +1,21 @@
+{
+  "name": "com.ibm.hellocordova",
+  "version": "1.0.0",
+  "displayName": "HelloCordova",
+  "cordova": {
+    "platforms": [
+      "ios"
+    ],
+    "plugins": {
+      "cordova-plugin-mfp": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-whitelist": {}
+    }
+  },
+  "dependencies": {
+    "cordova-ios": "~4.5.4",
+    "cordova-plugin-mfp": "~8.0",
+    "cordova-plugin-splashscreen": "~3",
+    "cordova-plugin-whitelist": "~1"
+  }
+}
