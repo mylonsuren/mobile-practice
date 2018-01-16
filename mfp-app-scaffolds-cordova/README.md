@@ -4,10 +4,10 @@ US Government Users Restricted Rights - Use, duplication or
 disclosure restricted by GSA ADP Schedule Contract with IBM Corp.-->
 
 # IBM MobileFirst Platform Foundation Cordova Sample Application
-Use this sample application to get started with development of Cordova applications.
-The application uses the IBM MobileFirst SDK to connect to a local or remote server and obtain an access token.
+<!-- Use this sample application to get started with development of Cordova applications.
+The application uses the IBM MobileFirst SDK to connect to a local or remote server and obtain an access token. -->
 
-**Getting Started**
+<!-- **Getting Started**
 
 1. Unzip the compressed cordova.zip file.
 * Change directory into MFPStarterCordova.
@@ -37,4 +37,4 @@ The software license can be found here: http://www.ibm.com/software/sla/sladb.ns
 
 - "Quick Start" section in IBM MobileFirst Platform tutorials:
 
- https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/all-tutorials/
+ https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/all-tutorials/ -->
