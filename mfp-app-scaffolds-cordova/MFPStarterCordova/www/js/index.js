@@ -8,16 +8,14 @@ var Messages = {
 var wlInitOptions = {
   // Options to initialize with the WL.Client object.
   // For initialization options please refer to IBM MobileFirst Platform Foundation Knowledge Center.
+
+  mfpContextRoot:'/mfp', // "mfp" is the default context root of MobileFirst Server
+  applicationId:'com.sample.app' // Replace with your own value.
 };
 
 function wlCommonInit() {
   app.init();
 }
-
-var wlInitOptions = {
-   mfpContextRoot:'/mfp', // "mfp" is the default context root of MobileFirst Server
-   applicationId:'com.sample.app' // Replace with your own value.
-};
 
 var app = {
   //initialize app
